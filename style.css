@@ -1,0 +1,121 @@
+body{
+    font-size: 18px;
+}
+header {
+  background-color: rgb(111, 118, 216);
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #8fa1ee;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav:ul {
+  list-style-type: none;
+  padding: 0;
+  height:100%;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: auto;
+  background-color: #8fa1ee;
+  height: 600px; /* only for demonstration, should be removed */
+  height: auto;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: auto;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(163, 169, 228);
+  padding: 6px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+    text-align:center;
+     color:rgb(71, 25, 197);
+}
+img {
+    border-radius: 50%;
+    /* height:200;
+     width:200; */
+  }
+ td {
+    border-radius: 25px;
+    background: hsla(263, 64%, 44%, 0.719);
+    padding: 15px; 
+    /* width: 200px; */
+    /* height: 150px;   */
+  }
+  h3{
+    text-align:center;
+    font-size: 14;
+  }
+.list {
+  float:left;
+  width:49.9%;
+ }
+ .list1 {
+  float: right;
+  width:49.9%;
+ }
+
+.sectionC
+{
+  display:flex;
+}
+.sectionb
+{
+  display:flex;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #b9a3ee;
+    padding: 20px; 
+    width: auto;
+    height: auto;  
+  }
+  .rcorners {
+    border-radius: 25px;
+    border: 2px solid #4a1eb1;
+    padding: 20px; 
+    width: auto;
+    height: auto;  
+  }
+  .rcorners3 {
+    border-radius: 25px;
+    border: 2px solid #28096e;
+    padding: 20px; 
+    width: auto;
+    height: auto;  
+  }
+  #laz{
+    display: flex;
+    align-content:flex-start;
+    flex-wrap:wrap;
+  }
+  /* ******************* */
+
+
+ 
